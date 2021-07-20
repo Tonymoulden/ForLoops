@@ -22,8 +22,11 @@ print(
 #      $
 #
 # Write Code Below #
+sym = input('Enter a Symbol: ')
+inn = int(input('Enter an Integer: '))
 
-
+for i in range(inn, 0, -1):
+    print(sym + sym * i)
 # 2 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.
 #   a. Create the following pattern using a for loop, and the symbol and size provided by the user.
@@ -44,7 +47,13 @@ print(
 #
 #
 # Write Code Below #
+sym = input('Enter a Symbol: ')
+inn = int(input('Enter an Integer: '))
 
+for i in range(inn, 0, -1):
+    print(sym + sym * i)
+for i in range(inn):
+    print(sym + sym * i)
 
 # 3 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.
@@ -66,6 +75,13 @@ print(
 #
 #
 # Write Code Below #
+sym = input('Enter a Symbol: ')
+inn = int(input('Enter an Integer: '))
+
+for i in range(inn):
+    print(sym + sym * i)
+for i in range(inn, 0, -1):
+    print(sym + sym * i)
 
 
 # ---------- Part 2 | Mathematical Patterns ---------- #

@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Tony Moulden
+# date: 07/16/2021
 
 # -------------------- Section 1 -------------------- #
 
@@ -25,6 +25,8 @@ print(
 #
 # Write Code Below #
 
+for i in range(5):
+    print('Tony')
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -40,6 +42,8 @@ print(
 #
 # Write Code Below #
 
+for i in range(0,5):
+    print(i)
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,6 +63,9 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
+
+for i in range(15):
+    print("$" * i)
 
 
 # ---------- Part 2 | Direct Access ---------- #
@@ -83,6 +90,9 @@ print(
 #
 # Write Code Below #
 
+t = 'Tony'
+for char in t:
+    print(char)
 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
@@ -106,6 +116,10 @@ print(
 #
 # Write Code Below #
 
+name = input('enter your name: ')
+
+for i in range(len(name)):
+    print(name[i])
 
 # ---------- Part 3 | range() variations ---------- #
 print(
@@ -143,6 +157,8 @@ print(
 #
 # Write Code Below #
 
+for i in range(10,25):
+    print(i)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -163,3 +179,5 @@ print(
 #
 # Write Code Below #
 
+for i in range(5, -5, -1):
+    print(i)

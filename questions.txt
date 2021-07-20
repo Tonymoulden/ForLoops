@@ -1,26 +1,27 @@
-Name:
-Date:
+Name: Tony Moulden
+Date: 07/19/21
 
 1 - What is the structure of a for loop?
-
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
 2 - When should I use a for loop?
-
+for loops are traditionally used when you have a block of code which you want to repeat a fixed number of times.
 
 3 - Why are loops useful to us?
-
+Loops are important in Python or in any other programming language as they help you to execute a block of code repeatedly.
 
 4 - What are the different variations of the range() function?
-
+(),(x,x),(x,x,x)
 
 5 - What are the two methods of creating a for loop?
-
+Two major types of loops are FOR LOOPS and WHILE LOOPS.
 
 6 - What is the iterator variable? Does it have to be named i?
-
+We call the variable that changes each time the loop executes and controls when the loop finishes the iteration variable.
+and no it doesn't
 
 7 - Can you loop through a string?
-
+yes
 
 8 - What are examples of real life loops that you encounter?
-
+names, numbers, counting
